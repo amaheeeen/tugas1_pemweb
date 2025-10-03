@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komunitas Pecinta Kucing Jakarta</title>
+</head>
+<body>
+
+    <header>
+        <img src="img/201708055984b64396a40.jpg" alt="Logo Komunitas Pecinta Kucing Jakarta" width="100" height="100">
+        <h1>Selamat Datang di Komunitas Pecinta Kucing Jakarta</h1>
+        <p>Tempat berkumpulnya para pecinta kucing di area Jakarta untuk berbagi cerita dan tips.</p>
+    </header>
+
+    <nav>
+        <h2>Navigasi</h2>
+        <ul>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#jadwal">Jadwal Acara</a></li>
+            <li><a href="#video">Galeri Video</a></li>
+            <li><a href="#daftar">Gabung Komunitas</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="tentang">
+            <h2>Tentang Komunitas Kami</h2>
+            <p>Komunitas Pecinta Kucing Jakarta (KPKJ) adalah sebuah wadah non-profit yang terbentuk dari kecintaan yang sama terhadap kucing. Kami aktif mengadakan berbagai kegiatan mulai dari kumpul santai, seminar kesehatan kucing, hingga aksi adopsi dan penyelamatan (rescue).</p>
+            
+            <figure>
+                <img src="img/WhatsApp-Image-2025-04-30-at-135617-4105432892.webp" alt="Foto acara cat gathering di taman" width="400">
+                <figcaption>Salah satu acara kumpul bulanan anggota komunitas.</figcaption>
+            </figure>
+        </section>
+
+        <section id="jadwal">
+            <h2>Jadwal Acara Mendatang</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Tanggal</th>
+                        <th>Kegiatan</th>
+                        <th>Lokasi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>12 Oktober 2025</td>
+                        <td>Kumpul Bulanan & Sesi Berbagi</td>
+                        <td>Taman Suropati, Menteng</td>
+                    </tr>
+                    <tr>
+                        <td>19 Oktober 2025</td>
+                        <td>Aksi Steril Bersama Subsidi</td>
+                        <td>Klinik Hewan PetCare, Kemang</td>
+                    </tr>
+                    <tr>
+                        <td>26 Oktober 2025</td>
+                        <td>Kunjungan & Donasi ke Shelter</td>
+                        <td>Rumah Kucing Parung</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="video">
+             <h2>Video Lucu Kucing Kami</h2>
+             <p>Lihat tingkah lucu para anabul (anak bulu) dari anggota kami!</p>
+             <video src="video/Play this to attract your cat and make it meow back (works instantly!).mp4" width="400" controls>
+                Browser Anda tidak mendukung tag video.
+             </video>
+        </section>
+
+        <section id="daftar">
+            <h2>Formulir Gabung Komunitas</h2>
+            <form action="/submit-form" method="post">
+                <p>
+                    <label for="nama">Nama Pemilik:</label><br>
+                    <input type="text" id="nama" name="nama_pemilik" placeholder="Masukkan nama Anda">
+                </p>
+                <p>
+                    Topik yang paling diminati:<br>
+                    <input type="radio" id="perawatan" name="topik" value="perawatan">
+                    <label for="perawatan">Perawatan & Kesehatan Kucing</label><br>
+                    <input type="radio" id="adopsi" name="topik" value="adopsi">
+                    <label for="adopsi">Adopsi & Penyelamatan (Rescue)</label><br>
+                    <input type="radio" id="fotografi" name="topik" value="fotografi">
+                    <label for="fotografi">Fotografi Kucing</label>
+                </p>
+                <p>
+                    <button type="submit">Kirim Pendaftaran</button>
+                </p>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Komunitas Pecinta Kucing Jakarta. Hak Cipta Dilindungi.</p>
+    </footer>
+
+</body>
+</html>

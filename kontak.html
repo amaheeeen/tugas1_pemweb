@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak & Gabung - KPKJ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/logo-kucing.png" alt="Logo Komunitas" class="logo">
+            <h1>Hubungi Kami</h1>
+            <p>Kami senang mendengar darimu! Gunakan form di bawah untuk bertanya, mendaftar, atau sekadar menyapa.</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="adopsi.html">Adopsi</a></li>
+                <li><a href="kontak.html" class="active">Kontak</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <article id="contact-form">
+                <h2>Kirim Pesan atau Daftar Anggota</h2>
+                <form action="/submit-form" method="post">
+                    <p>
+                        <label for="nama">Nama Lengkap:</label>
+                        <input type="text" id="nama" name="nama_lengkap" required>
+                    </p>
+                    <p>
+                        <label for="email">Alamat Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                    <p>
+                        <label for="subjek">Subjek:</label>
+                        <select id="subjek" name="subjek">
+                            <option value="pendaftaran">Pendaftaran Anggota Baru</option>
+                            <option value="adopsi">Informasi Adopsi</option>
+                            <option value="pertanyaan">Pertanyaan Umum</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="pesan">Pesan Anda:</label>
+                        <textarea id="pesan" name="pesan" required></textarea>
+                    </p>
+                    <p>
+                        <button type="submit" class="btn">Kirim</button>
+                    </p>
+                </form>
+            </article>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Komunitas Pecinta Kucing Jakarta.</p>
+        </footer>
+    </div>
+</body>
+</html>
